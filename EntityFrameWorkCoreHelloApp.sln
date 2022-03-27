@@ -5,11 +5,15 @@ VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameWorkCoreHelloApp", "EntityFrameWorkCoreHelloApp\EntityFrameWorkCoreHelloApp.csproj", "{EBBAB216-664D-47AC-9400-E51145F3BF27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameWorkCoreRead", "EntityFrameWorkCoreRead\EntityFrameWorkCoreRead.csproj", "{B0D8001E-BB35-4366-9423-AAE2CF423351}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameWorkCoreRead", "EntityFrameWorkCoreRead\EntityFrameWorkCoreRead.csproj", "{B0D8001E-BB35-4366-9423-AAE2CF423351}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCoreEnsureCreated", "EntityFrameworkCoreEnsureCreated\EntityFrameworkCoreEnsureCreated.csproj", "{C033AA48-AA70-462D-9698-1DA61F5857DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkCoreEnsureCreated", "EntityFrameworkCoreEnsureCreated\EntityFrameworkCoreEnsureCreated.csproj", "{C033AA48-AA70-462D-9698-1DA61F5857DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCoreCRUD", "EntityFrameworkCoreCRUD\EntityFrameworkCoreCRUD.csproj", "{BC5E3FC2-2C02-4ECC-8DB4-1FDF97529543}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkCoreCRUD", "EntityFrameworkCoreCRUD\EntityFrameworkCoreCRUD.csproj", "{BC5E3FC2-2C02-4ECC-8DB4-1FDF97529543}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCoreOnConfiguring", "EntityFrameworkCoreOnConfiguring\EntityFrameworkCoreOnConfiguring.csproj", "{CF58B307-21EE-4654-998D-BE844036ADC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameWorkCoreMigrationsAndDBChange", "EntityFrameWorkCoreMigrationsAndDBChange\EntityFrameWorkCoreMigrationsAndDBChange.csproj", "{4A3FE807-29AD-459C-851D-192CE64D5FEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{BC5E3FC2-2C02-4ECC-8DB4-1FDF97529543}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC5E3FC2-2C02-4ECC-8DB4-1FDF97529543}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC5E3FC2-2C02-4ECC-8DB4-1FDF97529543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF58B307-21EE-4654-998D-BE844036ADC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF58B307-21EE-4654-998D-BE844036ADC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF58B307-21EE-4654-998D-BE844036ADC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF58B307-21EE-4654-998D-BE844036ADC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A3FE807-29AD-459C-851D-192CE64D5FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A3FE807-29AD-459C-851D-192CE64D5FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A3FE807-29AD-459C-851D-192CE64D5FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A3FE807-29AD-459C-851D-192CE64D5FEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
